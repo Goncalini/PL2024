@@ -1,18 +1,18 @@
 # Titulo
 
-TPC1 1 de PL - Analise um Dataset
+TPC 1 de PL - Analise um Dataset
 
-## Enúnciado
+# Autor
+
+Gonçalo Daniel Machado Costa, A100824
+
+# Enúnciado
 
 Proibido usar o módulo CSV;
 Ler o dataset, processá-lo e criar os seguintes resultados:
     Lista ordenada alfabeticamente das modalidades desportivas;
     Percentagens de atletas aptos e inaptos para a prática desportiva;
     Distribuição de atletas por escalão etário (escalão = intervalo de 5 anos): ... [30-34], [35-39], ...
-
-# Autor
-
-Gonçalo Daniel Machado Costa, A100824
 
 # Explicação
 
