@@ -16,7 +16,7 @@ Ler o dataset, processá-lo e criar os seguintes resultados:
 
 # Explicação
 
--->Em prol de de ler um ficheiro csv sem o uso do módulo CSV, foi usado a função open no modo de read 'open(arquivo, 'r')'
+-->Em prol de de ler um ficheiro csv sem o uso do módulo CSV e a partir do stdin foi usado a libraria sys e recurso a "sys.stdin"
 -->Após isso foram inicializadas uma lista de modalidades, variaveis auxiliares para o calculo de atletas aptos e inaptos e um dicionário para a distribuição, cuja estrutura será chave -> (idade // 5)*5: Esta parte da expressão calcula o quociente da divisão inteira entre a idade e 5. Isso significa que dividimos a idade por 5 e ignoramos qualquer parte fracionária, obtendo assim um número inteiro que representa a "faixa" de idade, e depois multiplicamos esse quociente por 5 para agrupar as idades em intervalos de 5 anos. A mesma chave esta ligada a um tuplo que representa (número total de pessoas nessa faixa etária, lista de nomes dos atletas nessa faixa etária).
 
 ## Para responder às questões do enunciado forem implementadas as seguintes estratégias
@@ -31,5 +31,4 @@ Percentagens de atletas aptos e inaptos para a prática desportiva:
 
  ## Comentarios adicionais
 
- Foi feito um menu que cada opção responde às devidas questões.
- Vale realçar que para o código ser compilado é preciso o ficheiro CSV estar na mesma pasta que o módulo python!
+ Vale realçar que para o código ser compilado é preciso correr o seguinte comando "cat emd.csv | python3 PL-TP1.py"
