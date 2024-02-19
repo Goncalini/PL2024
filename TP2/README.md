@@ -1,4 +1,15 @@
-Criar em Python um pequeno conversor de MarkDown para HTML, o codigo deve receber como input uma linha em markdown e converter para a devida em python
+Links uteis:
+https://docs.python.org/pt-br/3/library/re.html
+https://regex101.com
+
+
+
+
+
+
+
+
+Criar em Python um pequeno conversor de MarkDown para HTML
 Cabeçalhos: linhas iniciadas por "# texto", ou "## texto" ou "### texto"
 In: # Exemplo
 Out: <h1>Exemplo</h1>
