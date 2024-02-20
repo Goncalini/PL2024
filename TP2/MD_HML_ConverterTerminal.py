@@ -11,7 +11,6 @@ def replacerlist(match):
     return items
 
 def markdown_to_html(markdown):
-
     # Título
     markdown = re.sub(r'^(#+)\s+(.*)$', replacertitle, markdown, flags=re.MULTILINE)
     
@@ -23,24 +22,14 @@ def markdown_to_html(markdown):
     
     # Lista numerada
     markdown = re.sub(r'^(\d+\.)\s*(.*)$', r'<li>\2</li>', markdown, flags=re.MULTILINE)
-    #markdownL = f'<ol>\n{markdown}</ol>'
-
-    #imagem (a ordem importa pq esta expressao regular é mais especifica que a dos link)
+    markdown = re.sub(r'((?:^|\n)\d+\.\s.*(?:\n\d+\.\s.*)*)', replacerlist, markdown, flags=re.DOTALL)
+    
+    # Imagem
     markdown = re.sub(r'!\[(.*?)\]\((.*?)\)', r'<img src="\2" alt="\1"/>', markdown)
 
     # Link
     markdown = re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', markdown)
-    
 
-    
-
-    
-    '''
-    if '<li>' in markdown:
-        return markdownL
-    else:
-        return markdown
-    '''
     return markdown
 
 def main():
