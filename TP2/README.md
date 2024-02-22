@@ -15,7 +15,7 @@ Com o recurso da libraria 're' (regex) e através de expressões regulares foi i
 - Palvras/Expressões em negrito
 - Listas Numeradas
 - Imagens
-- Links
+- Links\
 \
 Foi utilizado essencialmente o método "sub" da libraria re, que recebe uma expressão regular, e ao analisar uma linha de código, retorna ao segundo argumento todos os matchs capturados\
 \
