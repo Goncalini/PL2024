@@ -19,7 +19,7 @@ Com o recurso da libraria 're' (regex) e através de expressões regulares foi i
 
 Foi utilizado essencialmente o método "sub" da libraria re, que recebe uma expressão regular, e ao analisar uma linha de código, retorna ao segundo argumento todos os matchs capturados\
 
-Para listas foi tido em conta uma flag que imprimia <ol> quando a mesma tinha conhecimento de iniciar uma lista numerada e quando deteta que a mesma termina imprime </ol>
+Para listas foi tido em conta uma flag que imprimia \<ol> quando a mesma tinha conhecimento de iniciar uma lista numerada e quando deteta que a mesma termina imprime \</ol>
 
 
 ## Comentários adicionais
