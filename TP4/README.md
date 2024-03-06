@@ -17,4 +17,4 @@ Gonçalo Daniel Machado Costa, A100824
 
 # Recursos
 
-[ply](https://www.dabeaz.com/ply/ply.html)
+[Documentação Ply](https://www.dabeaz.com/ply/ply.html)
