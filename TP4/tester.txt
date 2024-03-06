@@ -1,0 +1,4 @@
+Select id, nome, wage From
+            empregados
+            Where wage >= 820;
+

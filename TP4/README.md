@@ -1,2 +1,20 @@
-# PL2024
-TPCS e restantes projetos de Processamento de Linguagens 23/24
+# Titulo
+
+TPC 4 - Analisador Léxico para Querie
+
+# Autor
+
+Gonçalo Daniel Machado Costa, A100824
+
+
+# Explicação
+
+- Comandos SQL: `SELECT`, `FROM` e `WHERE`;
+- Nomes de objetos/atributos das tables;
+- Números;
+- Delimitadores: `,` e `;`
+- Operadores matemáticos: `>=`;
+
+# Recursos
+
+[ply](https://www.dabeaz.com/ply/ply.html)
