@@ -1,6 +1,6 @@
 # Titulo
 
-TPC 4 - Analisador Léxico para Querie
+TPC 5 - Vending Machine
 
 # Autor
 
