@@ -1,5 +1,8 @@
 # TPC6: Gramática Independente de Contexto
-#### Autor: Gonçalo Daniel Machado Costa, A100824
+
+# Autor
+
+Gonçalo Daniel Machado Costa, A100824
 
 ## Resumo
 
@@ -24,24 +27,24 @@ N = {S, Expressão, Expressão2, Expressão3, Sinal, Sinal2}
 S = S
 
 P = {
-    S -> '?' var                 LA = {'?'}
-       | '!' Expressão           LA = {'!'}
-       | var '=' Expressão       LA = {var}
+    S -> '?' var                         LA = {'?'}
+       | '!' Expressão                   LA = {'!'}
+       | var '=' Expressão               LA = {var}
 
     Expressão -> Expressão2 Sinal
 
-    Sinal -> '+' Expressão          LA = {'+'}
-        | '-' Expressão             LA = {'-'}
-        | & (empty)                 LA = {$, ')'} 
+    Sinal -> '+' Expressão               LA = {'+'}
+        | '-' Expressão                  LA = {'-'}
+        | & (empty)                      LA = {$, ')'} 
     
     Expressão2 -> Expressão3 Sinal2      LA = {'(', var, num}
 
-    Sinal2 -> '*' Expressão         LA = {'*'}
-         | '/' Expressão            LA = {'/'}
-         | &                        LA = {'+', '-', $, ')'}
+    Sinal2 -> '*' Expressão              LA = {'*'}
+         | '/' Expressão                 LA = {'/'}
+         | &                             LA = {'+', '-', $, ')'}
 
-    Expressão3 -> '(' Expressão ')'   LA = {'('}
-           | var                      LA = {var}
-           | num                      LA = {num}
+    Expressão3 -> '(' Expressão ')'      LA = {'('}
+           | var                         LA = {var}
+           | num                         LA = {num}
 }
 ```
