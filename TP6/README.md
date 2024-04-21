@@ -13,10 +13,10 @@ Este trabalho consiste na implementação de uma gramática independente de cont
 ### Exemplos
 
 ```
-$ ?a
-$ b=a*6/(4-1)
-$ !a+b
-$ c=(a*b)/(a+b)
+?a
+b=a*6/(4-1)
+!a+b
+c=(a*b)/(a+b)
 ```
 
 ## Resolução e Gramática
